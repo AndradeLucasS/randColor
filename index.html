@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randcolor</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="bg">
+        <div class="top-block">
+            <input id="color" value="Generate your Colors">
+            <img src="./assets/clipboards.png" alt="Clipboard" id="clipboard">
+            <img src="./assets/hex.png" alt="Hex Color" id="hex">
+        </div>
+        <div class="bottom-block">
+            <button id="btn" onclick="init.newGenerate()">Generate new color</button>
+            <button id="auto">Auto generation of colors</button>
+            <button id="autoIncrease">+</button>
+            <button id="autoDecrease">-</button>
+            <div id="showSpeed"></div>
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
